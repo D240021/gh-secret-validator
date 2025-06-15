@@ -1,0 +1,13 @@
+{
+  "name": "gh-secret-validator",
+  "version": "1.0.0",
+  "description": "GitHub Action to validate that required secrets are set",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Daniel Barrantes Quirós",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}

@@ -1,0 +1,13 @@
+name: 'GH Secrets Validator'
+description: 'This action ensures that required secrets are set before running a workflow'
+author: 'Daniel Barrantes Quirós'
+inputs:
+  secrets:
+    description: 'Comma-separated list of required secrets'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
+branding:
+  icon: 'shield'
+  color: 'yellow'
