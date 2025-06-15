@@ -9,6 +9,6 @@ This GitHub Action validates that certain `secrets` are defined before continuin
 ## ✅ Example usage
 
 ```yaml
-uses: danielbq/gh-secrets-validator@v1
+uses: D240021/gh-secret-validator@v1
 with:
 secrets: 'API_KEY,TOKEN,DEPLOY_SECRET'
